@@ -16,12 +16,14 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [x] (3pts) User can view the movie poster image for each movie.
 
 #### BONUS
-- [ ] (2pt) User can view the app on various device sizes and orientations.
-- [ ] (1pt) Run your app on a real device.
+- [x] (2pt) User can view the app on various device sizes and orientations.
+- [x] (1pt) Run your app on a real device.
 
 ### App Walkthrough GIF
 
-<img src="https://github.com/michaeljleo/flixster-app/blob/main/showcase.gif" width=250><br>
+<img src="https://github.com/michaeljleo/flixster-app/blob/main/showcaseIphone8.gif" width=250><br>
+
+<img src="https://github.com/michaeljleo/flixster-app/blob/main/showcaseIphone12.gif" width=250><br>
 
 ### Notes
 The only challenge I faced is that I had a runtime error at one point caused by extra random outlets not connected to anything. After removing those outlets the code works great.
