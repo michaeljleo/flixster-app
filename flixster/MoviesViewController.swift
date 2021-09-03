@@ -65,7 +65,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         cell.movieSynopsis.text = synopsis
         
         //Grab movie image
-        let baseURL = "https://image.tmdb.org/t/p/w185" as! String
+        let baseURL = "https://image.tmdb.org/t/p/w185"
         let posterURL = movie["poster_path"] as! String
         let imageURL = URL(string: baseURL + posterURL)
         
