@@ -14,6 +14,7 @@
 		4C46D64A26DEEE5500C567BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C46D64926DEEE5500C567BA /* Assets.xcassets */; };
 		4C46D64D26DEEE5500C567BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C46D64B26DEEE5500C567BA /* LaunchScreen.storyboard */; };
 		4C46D65526DEEFAB00C567BA /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C46D65426DEEFAB00C567BA /* MoviesViewController.swift */; };
+		4CA4320C26E8375D00C72AD7 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA4320B26E8375D00C72AD7 /* MovieDetailsViewController.swift */; };
 		4CAE6A7526E26C1600D915F0 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 4CAE6A7426E26C1600D915F0 /* AlamofireImage */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		4C46D64C26DEEE5500C567BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C46D64E26DEEE5500C567BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C46D65426DEEFAB00C567BA /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		4CA4320B26E8375D00C72AD7 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				4C46D64026DEEE5300C567BA /* AppDelegate.swift */,
 				4C46D64226DEEE5300C567BA /* SceneDelegate.swift */,
 				4C46D64626DEEE5300C567BA /* Main.storyboard */,
+				4CA4320B26E8375D00C72AD7 /* MovieDetailsViewController.swift */,
 				4C335D9626E1B0240089857B /* MovieCell.swift */,
 				4C46D64926DEEE5500C567BA /* Assets.xcassets */,
 				4C46D64B26DEEE5500C567BA /* LaunchScreen.storyboard */,
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA4320C26E8375D00C72AD7 /* MovieDetailsViewController.swift in Sources */,
 				4C46D64126DEEE5300C567BA /* AppDelegate.swift in Sources */,
 				4C46D64326DEEE5300C567BA /* SceneDelegate.swift in Sources */,
 				4C335D9726E1B0240089857B /* MovieCell.swift in Sources */,
